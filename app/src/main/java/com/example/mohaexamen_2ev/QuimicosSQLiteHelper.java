@@ -17,6 +17,8 @@ public class QuimicosSQLiteHelper extends SQLiteOpenHelper {
             "    num_atomico INTEGER," +
             "    estado TEXT)";
 
+
+
     //El constructor
     public QuimicosSQLiteHelper(Context context, String name, CursorFactory factory, int version) {
         super(context, name, factory, version);
